@@ -1,0 +1,400 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Rental</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid px-4 h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-md-12">
+                    <div class="logo-content">
+                        <a href="#" class="logo"><i class="fas fa-home"></i>RENTAl</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="main">
+        <section class="form-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-lg-6 mx-auto p-md-0">
+                        <div class="content-bg-white">
+                            <div class="form-content">
+                                <div class="top text-center">
+                                    <div class="icon">
+                                        <i class="fas fa-home"></i>
+                                    </div>
+                                    <h1 class="title">Application form</h1>
+                                </div>
+                                <p class="description">
+                                    From this application form your basic information to be immediately shared with the
+                                    owner, landlord, and/or property management company, and for them to contact you.
+                                    This
+                                    information may include your name, email address, phone number(s), zip code, and
+                                    application status. Any remaining information you enter (SSN, addresses, photo id
+                                    and
+                                    personal informations etc.) will not be shared with anyone until you complete the
+                                    entire
+                                    application and submit at the very end.
+                                </p>
+                                <div class="sub-content">
+                                    <h3 class="sub-title">What we’re looking for</h3>
+                                    <p class="sub-description">We need your personal details for renting a property.
+                                        Those
+                                        information will given to the property owner.</p>
+                                    <ul class="sub-list">
+                                        <li><i class="fas fa-check-circle"></i>Personal Details</li>
+                                        <li><i class="fas fa-check-circle"></i>Proof of those details</li>
+                                        <li><i class="fas fa-check-circle"></i>Social Security Number for security</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="form-input-content">
+                                <form action="#">
+                                    <div class="top-input">
+
+                                        <div class="form-group">
+                                            <label class="form-label" for="first_name">Legal first name</label>
+                                            <input id="first_name" name="first_name" class="form-input" type="text" />
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="form-label" for="last_name">Legal last name</label>
+                                            <input id="last_name" class="form-input" name="last_name" type="text" />
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="form-label" for="email">Email</label>
+                                            <input id="email" class="form-input " name="email" type="email" />
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="input-group ">
+                                                <div class="input-group-prepend birthday_prepend">
+                                                    <span class="input-group-text">Date of birth</span>
+                                                </div>
+                                                <div class="select-date d-flex birthday_input">
+                                                    <select id="select-day" class="select_date " name="day"></select>
+                                                    <select id="select-month" class="select_date  margin_left_min"
+                                                        name="month">
+                                                        <option value="0">January
+                                                        <option value="1">February
+                                                        <option value="2">March
+                                                        <option value="3">April
+                                                        <option value="4">May
+                                                        <option value="5">June
+                                                        <option value="6">July
+                                                        <option value="7">August
+                                                        <option value="8">September
+                                                        <option value="8">October
+                                                        <option value="10">November
+                                                        <option value="11">December
+                                                    </select>
+                                                    <select id="select-year"
+                                                        class="select_date border_left_none margin_left_min"
+                                                        name="year"></select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="form-label" for="address">Street address</label>
+                                            <input id="address" class="form-input" name="address" type="text" />
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="form-label" for="address_two">Apt., ste., bldg.</label>
+                                            <input id="address_two" class="form-input" name="address_two" type="text" />
+                                        </div>
+                                        <div class="d-flex w-100 ">
+                                            <div class="form-group w-50">
+                                                <label class="form-label" for="city">City</label>
+                                                <input id="city" class="form-input border_rigth_none" name="city"
+                                                    type="text" />
+                                            </div>
+                                            <div class="form-group w-50">
+                                                <label class="form-label" for="state">State</label>
+                                                <input id="state" class="form-input border_left_none margin_left_min"
+                                                    name="state" type="text" />
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="form-label" for="zip_code">ZIP code</label>
+                                            <input id="zip_code" class="form-input" name="zip_code" type="text" />
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <div class="input-group ">
+                                                <div class="input-group-prepend phone_prepend">
+                                                    <span
+                                                        class="input-group-text w-100 d-flex justify-content-center"><i
+                                                            class="fas fa-phone"></i></span>
+                                                </div>
+                                                <div class="phone_input">
+                                                    <div class="form-group mb-0">
+                                                        <label class="form-label phone" for="phone">Phone</label>
+                                                        <input type="text" id="phone"
+                                                            class="form-input border_left_none" name="phone">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="form-label" for="social_security">Social security number
+                                                (SSN)</label>
+                                            <input id="social_security" class="form-input" type="text" />
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="form-label" for="job">What's your primary job?</label>
+                                            <input id="job" class="form-input" type="text" />
+                                        </div>
+                                    </div>
+                                    <div class="bottom-input">
+                                        <h3 class="title">Government issued photo ID</h3>
+                                        <p class="note">
+                                            <b>Note:</b> All submitted documents (pictures) must be in clear view and
+                                            readable.
+                                            <a href="#"> View example </a>
+                                        </p>
+                                        <div class="form-group">
+                                            <div class="input-group ">
+                                                <div class="input-group-prepend w-50">
+                                                    <span class="input-group-text w-100">Upload a photo ID
+                                                        (Front)</span>
+                                                </div>
+                                                <div class="w-50 border_file border_left_none ">
+                                                    <label class="filelabel">
+                                                        <span class="file_title">
+                                                            Click here to upload
+                                                        </span>
+                                                        <input class="file_upload" 
+                                                            name="front_file" type="file" />
+                                                    </label>
+                                                    
+                                                </div>
+
+                                            </div>
+                                            <span class="d-block text-danger">Please make sure that the photo is
+                                                complete and clearly visible. <a href="#">View example</a></span>
+                                        </div>
+                                        <div class="form-group">
+
+                                            <div class="input-group ">
+                                                <div class="input-group-prepend w-50">
+                                                    <span class="input-group-text w-100">Upload a photo ID
+                                                        (Back)</span>
+                                                </div>
+                                                <div class="w-50 border_file border_left_none ">
+                                                    <label class="filelabel">
+                                                        <span class="file_title">
+                                                            Click here to upload
+                                                        </span>
+                                                        <input class="file_upload" 
+                                                            name="back_file" type="file" />
+                                                    </label>
+                                                    
+                                                </div>
+
+                                            </div>
+                                            <span class="d-block text-danger">Please make sure that the photo is
+                                                complete and clearly visible. <a href="#">View example</a></span>
+                                        </div>
+                                        <div class="form-group">
+
+                                            <div class="input-group ">
+                                                <div class="input-group-prepend w-50">
+                                                    <span class="input-group-text w-100">Upload a selfile
+                                                        with ID card</span>
+                                                </div>
+                                                <div class="w-50 border_file border_left_none ">
+                                                    <label class="filelabel">
+                                                        <span class="file_title">
+                                                            Click here to upload
+                                                        </span>
+                                                        <input class="file_upload" 
+                                                            name="selfile_file" type="file" />
+                                                    </label>
+                                                    
+                                                </div>
+
+                                            </div>
+                                            <span class="d-block text-danger">Please check the example first.<a
+                                                    href="#">View example</a></span>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="form-label" for="about">Tell us about yourself?</label>
+                                            <textarea name="about" id="about" rows="10" class="form-input"></textarea>
+                                        </div>
+
+                                        <button type="submit" class="btn_submit">Apply now<i
+                                                class="fas fa-long-arrow-alt-right pl-2"></i></button>
+
+                                        <h3 class="footer-title">
+                                            Application will be send securely and remain private
+                                        </h3>
+                                        <p class="footer-description">
+                                            This form is provided in a secure environment and to help protect against
+                                            fraud your current IP address <span>(27.147.202.33) </span> is being logged.
+                                        </p>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+                        <ul class="footer-list">
+                            <li><i class="fas fa-check-circle"></i>To get application approved, make sure photo is taken
+                                in good light</li>
+                            <li><i class="fas fa-check-circle"></i>Details are in focus</li>
+                            <li><i class="fas fa-check-circle"></i>There is no glare on the ID</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-lg-3 pl-md-0">
+                        <div class="footer-logo">
+                            <div class="logo">
+                                <i class="fas fa-home pr-2"></i>Ameraican rental, LLC
+                            </div>
+                        </div>
+                        <div class="address">
+                            <p>
+                                1635 S. 500 W., Woods Cross, UT 84010, US
+                            </p>
+                            <p>
+                                (801) 292-4388
+                            </p>
+                            <p>
+                                admin@rentalllc.com
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-9 p-md-0">
+                        <div class="row">
+                            <div class="col-lg-4 ">
+                                <div class="d-flex align-items-center pb-3">
+                                    <div class="icon">
+                                        <img src="images/icon-1.png" alt="" class="imp-fluid">
+                                    </div>
+                                    <div>
+                                        <h4 class="footer-sub-title">
+                                            Money back guarantee
+                                            <span>
+                                                We return money within 30 days
+                                            </span>
+                                        </h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 ">
+                                <div class="d-flex align-items-center pb-3">
+                                    <div class="icon">
+                                        <img src="images/icon-2.png" alt="" class="imp-fluid">
+                                    </div>
+                                    <div>
+                                        <h4 class="footer-sub-title">
+                                            24/7 customer support
+                                            <span>
+                                                Friendly 24/7 customer support
+                                            </span>
+                                        </h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 ">
+                                <div class="d-flex align-items-center pb-3">
+                                    <div class="icon">
+                                        <img src="images/icon-3.png" alt="" class="imp-fluid">
+                                    </div>
+                                    <div>
+                                        <h4 class="footer-sub-title">
+                                            Secure online payment
+                                            <span>
+                                                We possess SSL / Secure сertificate
+                                            </span>
+                                        </h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <!-- <div class="col-md-6 col-lg-3">
+                        <div class="d-flex align-items-center">
+                            <div class="icon">
+                                <img src="images/icon-2.png" alt="" class="imp-fluid">
+                            </div>
+                            <div>
+                                <h4 class="footer-sub-title">
+                                    24/7 customer support
+                                    <span>
+                                        Friendly 24/7 customer support
+                                    </span>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 pr-0">
+                        <div class="d-flex align-items-center">
+                            <div class="icon">
+                                <img src="images/icon-3.png" alt="" class="imp-fluid">
+                            </div>
+                            <div>
+                                <h4 class="footer-sub-title">
+                                    Secure online payment
+                                    <span>
+                                        We possess SSL / Secure сertificate
+                                    </span>
+                                </h4>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+                <div class="row m-0">
+
+                    <div class="footer-bottom col-12 px-md-0">
+                        <div class="row justify-content-between">
+                            <div class="col-md-6">
+                                <ul>
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Support</a></li>
+                                    <li><a href="#">Terms of use</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6 ">
+                                <p>Copyright <i class="fas fa-copyright    "></i> 2009 - 2021 <span>Rental, LLC.</span>
+                                    All rights reserved.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
